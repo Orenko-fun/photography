@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORENKO Photography</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
+<body>
+    <section class="header-about" id="header">
+        <nav>
+            <a href="index.html" class="logo"><img src="imgs/logo.svg"></a>
+            <div class="nav-links" id="navLinks">
+                <img class="fa" onclick="hideMenu()" src="imgs/CLOSEYYY.svg" alt="">
+                <ul>
+                    <li><a href="#">STREET</a></li>
+                    <li><a href="friends.html">FRIENDS</a></li>
+                    <li><a href="#">TRAVEL</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </div>
+            <img class="fa1" onclick="showMenu()" src="imgs/icons8-menu (1).svg" alt="">
+        </nav>
+
+        <div class="text-area-about">
+            <h1 class="animate__animated animate__bounceInDown">Hay It's Me Oren</h1>
+            <h3 class="animate__animated animate__zoomIn">I'm a B&W photographer</h3>
+            <p class="animate__animated animate__zoomIn">WHY B&W ? <br>
+                Because It's an exposure of emotion <br>
+                When you look at a colored photo <br>
+                You pay more attention to the colors in the picture <br>
+                And when you look at a b&w photo <br>
+                you can see the story the picture tells <br>
+                </p>
+        </div>
+    </section>
+    <section class="buy-the-way">
+        <div class="text-area-buy">
+            <img src="imgs/buy-the-way2.svg" alt="">
+            <p>If you liked my website <br>
+                And you want a good looking one for you <br>
+                DON'T HESITATE ! <br>
+                Go to my portfolio</p>
+        </div>
+        <a href="#" class="btn1"><button class="btn2">TAKE A LOOK</button></a>
+    </section>
+
+
+
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+    
+        </script>
+    </body>
+    </html>
